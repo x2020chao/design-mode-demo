@@ -2,12 +2,12 @@ package com.example.demo.mode.adapter.practice.client;
 
 import java.io.IOException;
 
-import com.example.demo.mode.adapter.practice.adapter.FileProperties;
+import com.example.demo.mode.adapter.practice.adapter.ExtendsFileProperties;
 import com.example.demo.mode.adapter.practice.target.FileIO;
 
 public class TestFileIOExtendsApapter {
     public static void main(String[] args) {
-        FileIO f = new FileProperties();
+        FileIO f = new ExtendsFileProperties();
         try {
             f.readFromFile("src/test/java/com/example/demo/mode/adapter/practice/client/file.txt");
             f.setValue("year", "2004");
