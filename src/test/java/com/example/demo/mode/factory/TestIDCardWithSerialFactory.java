@@ -1,4 +1,4 @@
-package com.example.demp.mode.factory;
+package com.example.demo.mode.factory;
 
 import com.example.demo.mode.factory.components.Factory;
 import com.example.demo.mode.factory.components.Product;
