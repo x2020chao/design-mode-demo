@@ -33,7 +33,7 @@
 2. 具体类 `ConcreteClass` 
    > 负责具体实现抽象类 `AbstractClass` 中定义的抽象方法，这里实现的方法将在 `AbstractClass` 角色的模板方法中被调用
 
-### Factory Method 工厂方法
+### [Factory Method 工厂方法](src/main/java/com/example/demo/mode/factory/)
 > 父类决定实例的生成方式，但不决定所要生成的具体的类，具体的处理全部交给子类负责，完成生成实例的框架 `framework` 和实际负责实例的类解耦
 1. 产品 `Product`
    > 属于框架方，是一个抽象类，定义了 `Factory Method` 模式中生成的那些实例所持有的接口（`API`），但是具体的处理交给子类 `ConcreteProduct` 角色决定
