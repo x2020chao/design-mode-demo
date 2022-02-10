@@ -62,3 +62,16 @@
 1. 实现了 `Cloneable` 接口的类调用 `clone` 进行复制，没有实现 `Cloneable` 接口的类调用 `clone` 时会发生 `CloneNotSupportedException` 异常
 2. `clone` 方法定义在 `java.lang.Object` 中，`Cloneable` 接口没有声明任何方法，只是用来 __标记__ “可以使用 `clone` 方法进行复制”，是 __标记接口__
 3. `clone` 是浅复制
+
+### [builder 建造者](src/main/java/com/example/demo/mode/builder/)
+> 组装复杂的实例
+1. 建造者 `Builder`
+   > 负责定义用于生成实例的接口
+2. 具体的建造者 `ConcreateBuilder`
+   > 负责实现 `Builder` 角色的接口的类
+3. 监工 `Director`
+   > 负责使用 `Builder` 角色的接口来生成实例，不依赖于 `ConcreateBuilder`
+
+#### 与 `Template Method` 之间的区别
+1. `Builder` 模式中，`Director` 角色控制 `Builder` 角色
+2. `Template Method` 模式中，父类控制子类
