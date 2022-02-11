@@ -1,6 +1,6 @@
 ## 设计模式
 
-### [Abstract Factory 抽象工厂]
+### [Abstract Factory 抽象工厂](src/main/java/com/example/demo/mode/abstractfactory/)
 > 将关联零件组装成产品
 1. 抽象产品 `AbstractProduct`
    > 负责定义 `AbstractFactory` 所生成的抽象零件和产品的接口
