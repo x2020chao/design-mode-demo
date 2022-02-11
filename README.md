@@ -76,7 +76,7 @@
 1. `Builder` 模式中，`Director` 角色控制 `Builder` 角色
 2. `Template Method` 模式中，父类控制子类
 
-### [Abstract Factory 抽象工厂]
+### [Abstract Factory 抽象工厂](src/main/java/com/example/demo/mode/abstractfactory/)
 > 将关联零件组装成产品
 1. 抽象产品 `AbstractProduct`
    > 负责定义 `AbstractFactory` 所生成的抽象零件和产品的接口
