@@ -1,7 +1,7 @@
 ## 设计模式
 
 
-### Bridge 桥接
+### [Bridge 桥接](src/main/java/com/example/demo/mode/bridge/)
 > 将类的功能层次结构与实现层次结构分离
 - 功能层次结构
   > 为了增加新功能而产生的层次结构，比如：
